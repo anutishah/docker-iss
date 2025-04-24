@@ -73,6 +73,7 @@ def write_to_mongo(dtime, long, lat):
         logger.error(e)
         exit(1)
 
+print("docker is awesome")
 # entrypoint fcn
 if __name__ == "__main__":
     get_iss_location()
